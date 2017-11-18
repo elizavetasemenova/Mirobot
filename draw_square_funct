@@ -1,0 +1,15 @@
+from mirobot import Mirobot
+
+mirobot = Mirobot()
+
+def draw_square(length, angle):
+    mirobot.pendown()
+    for i in range(4):
+        mirobot.forward(length)
+        mirobot.right(angle)
+    mirobot.penup()
+
+length = 100
+angle = 90
+
+draw_square(length, angle)
