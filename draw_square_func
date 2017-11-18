@@ -1,5 +1,5 @@
+# Draw square with Mirobot, without using variables/loops/functions
 from mirobot import Mirobot
-
 mirobot = Mirobot()
 
 def draw_square(length, angle):
