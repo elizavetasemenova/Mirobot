@@ -1,0 +1,21 @@
+# Draw square with Mirobot, without using variables/loops/functions
+
+from mirobot import Mirobot
+
+mirobot = Mirobot()
+
+mirobot.pendown()
+
+mirobot.forward(100)
+mirobot.right(90)
+
+mirobot.forward(100)
+mirobot.right(90)
+
+mirobot.forward(100)
+mirobot.right(90)
+
+mirobot.forward(100)
+mirobot.right(90)
+
+mirobot.penup()
